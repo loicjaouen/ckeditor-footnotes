@@ -71,7 +71,7 @@ $(document).ready(function () {
     var filter = ' p em strong strike u sub sup; a[!href](salsah-link)';
 
     var config = {
-        extraPlugins: 'sourcearea,removeformat,widget,footnotes',
+        extraPlugins: 'sourcearea,removeformat,widget,footnotes,lineutils,widgetselection',
         language: 'en', // customize language
         allowedContent: filter,
         pasteFilter: filter,
@@ -91,7 +91,7 @@ $(document).ready(function () {
          ]*/
         // configuration for toolbar buttons
         toolbar: [
-            ['Source', 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat', 'Link', 'Unlink', 'footnotes']
+            ['Source', 'Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat', 'Link', 'Unlink', 'Footnotes']
         ]
     };
 
