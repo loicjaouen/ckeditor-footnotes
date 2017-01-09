@@ -72,6 +72,7 @@ $(document).ready(function () {
 
     var config = {
         //extraPlugins: 'footnotes',
+        extraPlugins: 'sourcearea',
         language: 'en', // customize language
         allowedContent: filter,
         pasteFilter: filter,
