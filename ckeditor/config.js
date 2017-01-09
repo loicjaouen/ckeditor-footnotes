@@ -3,6 +3,7 @@
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
+/*
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here.
 	// For complete reference see:
@@ -32,3 +33,4 @@ CKEDITOR.editorConfig = function( config ) {
 	// Dialog windows are also simplified.
 	config.removeDialogTabs = 'link:advanced';
 };
+*/
