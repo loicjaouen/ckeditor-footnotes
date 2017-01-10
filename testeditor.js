@@ -71,7 +71,8 @@ $(document).ready(function () {
     var filter = ' p em strong strike u sub sup; a[!href](salsah-link)';
 
     var config = {
-        extraPlugins: 'sourcearea,removeformat,widget,footnotes,lineutils,widgetselection',
+        //extraPlugins: 'sourcearea,removeformat,widget,footnotes,lineutils,widgetselection',
+        extraPlugins: 'sourcearea,removeformat,widget,footnotes',
         language: 'en', // customize language
         allowedContent: filter,
         pasteFilter: filter,
